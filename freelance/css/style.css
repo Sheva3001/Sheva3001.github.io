@@ -1,47 +1,47 @@
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 100;
-  src: url(../../fonts/SFProDisplay-Ultralight.ttf); }
+  src: url(../fonts/SFProDisplay-Ultralight.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 200;
-  src: url(../../fonts/SFProDisplay-Thin.ttf); }
+  src: url(../fonts/SFProDisplay-Thin.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 300;
-  src: url(../../fonts/SFProDisplay-Light.ttf); }
+  src: url(../fonts/SFProDisplay-Light.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 400;
-  src: url(../../fonts/SFProDisplay-Regular.ttf); }
+  src: url(../fonts/SFProDisplay-Regular.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 500;
-  src: url(../../fonts/SFProDisplay-Medium.ttf); }
+  src: url(../fonts/SFProDisplay-Medium.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 600;
-  src: url(../../fonts/SFProDisplay-Semibold.ttf); }
+  src: url(../fonts/SFProDisplay-Semibold.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 700;
-  src: url(../../fonts/SFProDisplay-Bold.ttf); }
+  src: url(../fonts/SFProDisplay-Bold.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 800;
-  src: url(../../fonts/SFProDisplay-Heavy.ttf); }
+  src: url(../fonts/SFProDisplay-Heavy.ttf); }
 
 @font-face {
   font-family: 'SFProDisplay';
   font-weight: 900;
-  src: url(../../fonts/SFProDisplay-Black.ttf); }
+  src: url(../fonts/SFProDisplay-Black.ttf); }
 
 body {
   margin: 0;
