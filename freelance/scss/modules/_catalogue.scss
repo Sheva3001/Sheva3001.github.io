@@ -1,0 +1,39 @@
+.catalogue {
+    padding: 30px 0;
+    &__head {
+        padding: 18px 26px;
+        background-color: #ffffff;
+        border-radius: 3px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #303030;
+        a {
+            float: right;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #177DE5;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+    &__items {
+        padding: 30px 20px 0 20px;
+        max-height: 165px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    &__item {
+        display: block;
+        width: 205px;
+        a {
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #808080;
+        }
+    }
+}

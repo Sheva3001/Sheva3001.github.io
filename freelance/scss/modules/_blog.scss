@@ -1,0 +1,9 @@
+.blog {
+    padding: 30px 0;
+    &__items {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

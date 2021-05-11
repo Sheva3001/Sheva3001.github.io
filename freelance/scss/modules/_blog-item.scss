@@ -1,0 +1,35 @@
+.blog-item {
+    border-radius: 3px;
+    position: relative;
+    padding: 0 0 26px 31px;
+    height: 162px;
+    margin-bottom: 10px;
+    &_sm {
+        width: 203px;
+    }
+    &_mid {
+        width: 339px;
+    }
+    &_big {
+        width: 593px;
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #fff;
+        position: absolute;
+        bottom: 26px;
+        left: 31px;
+        width: 235px;
+    }
+}

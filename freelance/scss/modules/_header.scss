@@ -1,0 +1,27 @@
+.header {
+    display: block;
+    width: 100%;
+    background: #fff;
+    &__top {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        height: 32px;
+        a {
+            display: block;
+            width: 173px;
+            height: 32px;
+            img {
+                width: auto;
+                height: 100%;
+                text-align-last: left;
+            }
+        }
+    }
+    &__bottom {
+        height: 41px;
+        background: #28B661;
+    }
+}

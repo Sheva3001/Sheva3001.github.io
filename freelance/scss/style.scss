@@ -1,0 +1,44 @@
+@import "fonts/fonts.scss";
+
+body {
+    margin: 0;
+    background: #F5F5F5;
+    font-family: 'SFProDisplay';
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1249px;
+    margin: 0 auto;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+@import "modules/header";
+@import "modules/header-right";
+@import "modules/header-nav";
+@import "modules/promo";
+@import "modules/catalogue";
+@import "modules/active";
+@import "modules/active-item";
+@import "modules/orders";
+@import "modules/orders-item";
+@import "modules/blog";
+@import "modules/blog-item";
+@import "modules/footer";

@@ -1,0 +1,73 @@
+.footer {
+    padding: 70px 0 80px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 175px;
+    }
+    &__mid {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__social {
+        width: 100%;
+        margin: 25px 0;
+        display: flex;
+        justify-content: space-between;
+        li {
+            width: 20px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    &__stat {
+        margin-left: 12px;
+        li {
+            list-style: disc;
+            color: #a1a1a1;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    &__online {
+        &::marker {
+            color: #58B758;
+        }
+    }
+    &__rates {
+        &::marker {
+            color: #177DE5;
+        }
+    }
+    &__col {
+        margin: 0 27px;
+        &:first-of-type {
+            margin: 0 20px 0 32px;
+        }
+        ul {
+            li {
+                margin: 15px 0;
+                a {
+                    color: #757575;
+                }
+            }
+        }
+    }
+    &__title {
+        font-size: 21px;
+        line-height: 29px;
+        font-weight: 400;
+        color: #000;
+    }
+}

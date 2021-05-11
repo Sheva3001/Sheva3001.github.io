@@ -1,0 +1,17 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    &__item {
+        padding: 10px;
+        &:first-of-type {
+            padding-left: 0;
+        }
+        &:last-of-type {
+            padding-right: 0;
+        }
+    }
+    &__link {
+        font-size: 16px;
+        color: #fff;
+    }
+}
