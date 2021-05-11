@@ -320,21 +320,18 @@ a {
   .header-nav__item {
     height: 100%;
     padding: 10px;
-    position: relative;
-    transition: .2s ease-in-out all; }
+    position: relative; }
     .header-nav__item::after {
       content: '';
       width: 0%;
       height: 3px;
-      background: #177DE5;
+      background: #fff;
       display: block;
       position: absolute;
-      bottom: -1px;
+      bottom: -2px;
       left: 50%;
       transform: translateX(-50%);
       transition: .2s ease-in-out all; }
-    .header-nav__item:hover .header-nav__link {
-      color: #177DE5; }
     .header-nav__item:hover::after {
       width: 100%; }
     .header-nav__item:first-of-type {
