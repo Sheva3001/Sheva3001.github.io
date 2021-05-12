@@ -3,11 +3,15 @@
     margin: 4px 0 0 0;
     background: #fff;
     padding: 17px 28px 22px 17px;
+    transition: .2s ease-in-out all;
     &:nth-of-type(9) {
         border-radius: 0 0 0 3px;
     }
     &:nth-of-type(12) {
         border-radius: 0 0 3px 0;
+    }
+    &:hover {
+        box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.34);
     }
     &__head {
         display: flex;

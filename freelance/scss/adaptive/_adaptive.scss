@@ -1,0 +1,376 @@
+// 320px
+// 640px
+// 960px
+// 1280px
+// 1920px
+
+@media (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+    .promo {
+        &__banner {
+            padding: 20px 30px;
+        }
+        &__info {
+            width: 465px;
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__descr {
+            font-size: 14px;
+            margin: 15px 0;
+        }
+        &__form {
+            height: 38px;
+            input {
+                width: 225px;
+                padding: 10px;
+                font-size: 14px;
+            }
+            button {
+                width: 125px;
+                font-size: 16px;
+            }
+        }
+        &__afterform {
+            font-size: 12px;
+        }
+    }
+    .catalogue {
+        &__head {
+            padding: 8px 16px;
+            font-size: 22px;
+        }
+    }
+    .active {
+        &__all {
+            line-height: 2;
+        }
+        &-item {
+            width: calc(25% - 34px);
+            padding: 10px 15px 10px 15px;
+            &__name {
+                font-size: 14px;
+            }
+            &__login {
+                font-size: 12px;
+                margin-top: 6px;
+            }
+            &__verified {
+                width: 13px;
+                height: 13px;
+                margin-left: 5px;
+            }
+            &__spec {
+                margin-top: 8px;
+                font-size: 13px;
+            }
+            &__stat {
+                margin-top: 8px;
+            }
+            &__pay {
+                font-size: 13px;
+                margin-right: 30px;
+            }
+            &__sep:nth-of-type(2n)::before {
+                left: -16px;
+            }
+        }
+    }
+    .orders {
+        &-item {
+            padding: 12px 16px;
+            width: calc(50% - 37px);
+            &__time {
+                word-spacing: 0px;
+                font-size: 12px;
+            }
+            &__title {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 14px;
+            }
+        }
+    }
+    .blog {
+        &-item {
+            height: 120px;
+            &_sm {
+                width: 151px;
+            }
+            &_mid {
+                width: 256px;
+            }
+            &_big {
+                width: 452px;
+            }
+            &__title {
+                font-size: 15px;
+                bottom: 15px;
+                left: 13px;
+                width: 161px;
+            }
+        }
+    }
+    .footer {
+        &__col {
+            margin: 0 10px;
+            &:first-of-type {
+                margin: 0 10px 0 20px;
+            }
+            ul {
+                li {
+                    margin: 10px 0;
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        &__title {
+            font-size: 18px;
+            line-height: 1.2;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    #header-right__open {
+        display: block;
+    }
+    .header {
+        &__left {
+            a {
+                margin-left: 100px;
+            }
+            &_open {
+                display: block;
+            }
+        }
+        &-right {
+            &__menu {
+                display: flex;
+                justify-content: space-between;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: calc(100% - 50px);
+                height: 24px;
+                background: #fff;
+                padding: 25px;
+                z-index: 100;
+                transform: translateY(-200%);
+                transition: transform .2s ease-in;
+                #header-right__close {
+                    font-size: 45px;
+                    line-height: 1.2;
+                    display: block;
+                    margin-top: -22px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &__bottom {
+            height: 100vh;
+            background: #fff;
+            width: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            transform: translateX(-200%);
+            transition: .2s ease-in all;
+        }
+        &-nav {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 65px 20px;
+            width: 50%;
+            &__item {
+                &:first-of-type {
+                    padding-left: 10px;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+    .promo {
+        padding: 15px 0;
+        &__banner {
+            padding: 10px 20px;
+        }
+        &__title {
+            font-size: 23px;
+            border-bottom: 2px solid;
+        }
+        &__descr {
+            margin: 8px 0;
+        }
+        &__form {
+            height: 32px;
+        }
+    }
+    .catalogue {
+        padding: 15px 0;
+        &__items {
+            max-height: 225px;
+        }
+    }
+    .active {
+        padding: 15px 0;
+        &-item {
+            width: calc(33% - 31px);
+        }
+    }
+    .orders {
+        &-item {
+            width: 100%;
+        }
+    }
+    .blog {
+        padding: 15px 0;
+        &-item {
+            margin-bottom: 20px;
+            height: 191px;
+            &_sm {
+                width: calc(38% - 35px);
+            }
+            &_mid {
+                width: calc(64% - 66px);
+            }
+            &_big {
+                width: 100%;
+            }
+        }
+    }
+    .footer {
+        padding: 15px 0;
+        &__left {
+            margin: 25px auto 0 auto;
+        }
+        &__right {
+            display: none;
+        }
+        &__wrapper {
+            flex-direction: column-reverse;
+        }
+        &__mid {
+            flex-direction: column;
+        }
+        &__col {
+            margin: 0;
+            overflow: hidden;
+            height: 40px;
+            transition: .2s ease-in all;
+            &:first-of-type {
+                margin: 0;
+            }
+            &_active {
+                height: 128px;
+                .footer__title::after {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        &__title {
+            margin: 10px 0;
+            position: relative;
+            cursor: pointer;
+            &::after {
+                transition: .2s ease-in all;
+                content: '';
+                width: 10px;
+                height: 10px;
+                display: block;
+                background: url(../../img/arrow-down.svg) center center/cover no-repeat;
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .header {
+        &__left {
+            a {
+                margin-left: 80px;
+            }
+        }
+    }
+    .promo {
+        &__banner {
+            width: 300px;
+            min-height: 220px;
+            margin: 0 auto;
+            background: #177DE5;
+        }
+        &__bg {
+            display: none;
+        }
+        &__info {
+            width: 100%;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__afterform {
+            font-size: 11px;
+        }
+    }
+    .catalogue {
+        &__head {
+            font-size: 20px;
+            padding: 6px 12px;
+        }
+        &__items {
+            padding: 15px 10px 0 10px;
+            flex-direction: row;
+            max-height: 525px;
+        }
+        &__item {
+            width: 50%;
+            a {
+                font-size: 14px;
+                line-height: 1.8;
+            }
+        }
+    }
+    .active {
+        &__all {
+            font-size: 12px;
+        }
+        &-item {
+            width: calc(50% - 32px);
+        }
+    }
+    .blog {
+        &-item {
+            height: 137px;
+            &_mid {
+                width: calc(64% - 56px);
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 290px;
+    }
+}

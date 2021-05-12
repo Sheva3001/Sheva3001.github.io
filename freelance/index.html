@@ -12,6 +12,11 @@
         <div class="container">
             <div class="header__top">
                 <div class="header__left">
+                    <div class="header__left_open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <a href="#"><img src="img/main_logo_580.png" alt="logo"></a>
                 </div>
                 <div class="header-right">
@@ -20,8 +25,10 @@
                         <li><a href="#">Проекты</a></li>
                         <li><a href="#">Избранное</a></li>
                         <li><a href="#">Чат<span class="header-right__count">5</span></a></li>
+                        <li id="header-right__close">&times;</li>
                     </ul>
                     <ul class="header-right__icons">
+                        <li id="header-right__open"><img src="img/more.svg" alt="more"></li>
                         <li><a href="#" class="header-right__notify"><img src="img/bell.svg" alt="notify"><span class="header-right__count">10</span></a></li>
                         <li><a href="#" class="header-right__cart"><img src="img/shopping-cart.svg" alt="cart"></a></li>
                         <li><a href="#" class="header-right__balance"><span>0</span><img src="img/ruble.svg" alt="balance"></a></li>
@@ -71,7 +78,7 @@
 
     <section class="catalogue">
         <div class="container">
-            <div class="catalogue__head">Каталог фрилансеров</div>
+            <h2 class="catalogue__head">Каталог фрилансеров</h2>
             <ul class="catalogue__items">
                 <li class="catalogue__item"><a href="#">Разработка сайтов</a></li>
                 <li class="catalogue__item"><a href="#">Тексты</a></li>
@@ -98,10 +105,10 @@
 
     <section class="active">
         <div class="container">
-            <div class="catalogue__head active__head">
+            <h2 class="catalogue__head active__head">
                 Самые активные фрилансеры за 30 дней
                 <a href="#" class="active__all">Все активные</a>
-            </div>
+            </h2>
             <div class="active__items">
                 <a href="#" class="active-item">
                     <div class="active-item__head">
@@ -280,7 +287,7 @@
 
     <section class="orders">
         <div class="container">
-            <div class="catalogue__head">Активные заказы на сайте</div>
+            <h2 class="catalogue__head">Активные заказы на сайте</h2>
             <div class="orders__items">
                 <a href="#" class="orders-item">
                     <div class="active-item__head">
@@ -344,7 +351,7 @@
 
     <section class="blog">
         <div class="container">
-            <div class="catalogue__head">Блог</div>
+            <h2 class="catalogue__head">Блог</h2>
             <div class="blog__items">
                 <a href="#" class="blog-item blog-item_mid">
                     <img src="img/bg_mid.jpg" alt="bg" class="blog-item__bg">
@@ -413,7 +420,7 @@
                 </div>
                 <div class="footer__mid">
                     <div class="footer__col">
-                        <h3 class="footer__title">WorkFly</h3>
+                        <h3 id="col_1" class="footer__title">WorkFly</h3>
                         <ul>
                             <li><a href="#">О проекте</a></li>
                             <li><a href="#">Пользовательское соглашение</a></li>
@@ -421,7 +428,7 @@
                         </ul>
                     </div>
                     <div class="footer__col">
-                        <h3 class="footer__title">Сообщество</h3>
+                        <h3 id="col_2" class="footer__title">Сообщество</h3>
                         <ul>
                             <li><a href="#">Блог</a></li>
                             <li><a href="#">Партнёрская программа</a></li>
@@ -429,7 +436,7 @@
                         </ul>
                     </div>
                     <div class="footer__col">
-                        <h3 class="footer__title">Полезное</h3>
+                        <h3 id="col_3" class="footer__title">Полезное</h3>
                         <ul>
                             <li><a href="#">Фрилансеру</a></li>
                             <li><a href="#">Как зарабатывать на Kwork</a></li>
@@ -437,7 +444,7 @@
                         </ul>
                     </div>
                     <div class="footer__col">
-                        <h3 class="footer__title">Помощь</h3>
+                        <h3 id="col_4" class="footer__title">Помощь</h3>
                         <ul>
                             <li><a href="#">Правила сервиса</a></li>
                             <li><a href="#">Вопрос – Ответ</a></li>
@@ -451,5 +458,9 @@
             </div>
         </div>
     </footer>
+
+    <div class="overlay"></div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

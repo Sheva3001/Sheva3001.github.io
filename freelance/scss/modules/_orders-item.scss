@@ -4,6 +4,10 @@
     border-radius: 3px;
     padding: 18px 28px;
     margin-bottom: 10px;
+    transition: .2s ease-in-out all;
+    &:hover {
+        box-shadow: 5px 5px 7px 0px rgba(50, 50, 50, 0.34);
+    }
     &__time {
         position: absolute;
         top: 0;

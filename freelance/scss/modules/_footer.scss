@@ -60,6 +60,26 @@
                 margin: 15px 0;
                 a {
                     color: #757575;
+                    position: relative;
+                    transition: .2s ease-in-out all;
+                    &::after {
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        background: #177DE5;
+                        display: block;
+                        position: absolute;
+                        bottom: -4px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        transition: .2s ease-in-out all;
+                    }
+                    &:hover {
+                        color: #177DE5;
+                        &::after {
+                            width: 100%;
+                        }
+                    }
                 }
             }
         }

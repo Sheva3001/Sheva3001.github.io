@@ -5,7 +5,7 @@
         background-color: #ffffff;
         border-radius: 3px;
         font-size: 24px;
-        line-height: 32px;
+        line-height: 1.2;
         font-weight: 500;
         text-decoration: underline;
         color: #303030;
@@ -29,11 +29,33 @@
     &__item {
         display: block;
         width: 205px;
+        position: relative;
         a {
             font-size: 16px;
             line-height: 28px;
             font-weight: 400;
             color: #808080;
+            transition: .2s ease-in-out all;
+        }
+        &::after {
+            content: '';
+            width: 3px;
+            height: 0%;
+            background: #177DE5;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: -15px;
+            transform: translateY(-50%);
+            transition: .2s ease-in-out all;
+        }
+        &:hover {
+            a {
+                color: #177DE5;
+            }
+            &::after {
+                height: 100%;
+            }
         }
     }
 }

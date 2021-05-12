@@ -4,6 +4,10 @@
     padding: 0 0 26px 31px;
     height: 162px;
     margin-bottom: 10px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6530812153963148) 0%, rgba(0,0,0,0.5046218316428134) 28%, rgba(0,0,0,0.1040616075531775) 100%);
+    &:hover {
+        background: linear-gradient(180deg, rgba(0,0,0,0.6530812153963148) 0%, rgba(0,0,0,0.5046218316428134) 28%, rgba(0,0,0,0.1040616075531775) 100%);
+    }
     &_sm {
         width: 203px;
     }
