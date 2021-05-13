@@ -373,4 +373,144 @@
     .container {
         width: 290px;
     }
+    .left {
+        &_open {
+            &_active {
+                span {
+                    &:nth-of-type(1) {
+                        top: 9px;
+                    }
+                    &:nth-of-type(3) {
+                        bottom: 9px;
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        padding-top: 40px;
+        &__left {
+            a {
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                margin: 0;
+            }
+            &_open {
+                width: 25px;
+                height: 22px;
+                top: 67px;
+                left: 16px;
+            }
+        }
+        &-right {
+            &__icons {
+                li {
+                    padding: 0 13px;
+                }
+            }
+            &__menu {
+                width: calc(100% - 10px);
+                padding: 25px 5px;
+                li {
+                    a {
+                        padding: 7px 3px;
+                    }
+                }
+            }
+        }
+        &-nav {
+            padding: 91px 5px 10px 5px;
+            width: 70%;
+        }
+        &__bottom {
+            width: 70%;
+        }
+    }
+    .promo {
+        &__banner {
+            width: 250px;
+        }
+        &__form {
+            input {
+                width: 155px;
+            }
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__afterform {
+            font-size: 9px;
+        }
+    }
+    .catalogue {
+        &__head {
+            font-size: 16px;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+    .active {
+        &-item {
+            .active-item__head {
+                flex-direction: column;
+                align-items: center;
+            }
+            .active-item__logo {
+                margin: 0 auto !important;
+            }
+            &__pay {
+                font-size: 10px;
+                margin-right: 14px;
+            }
+            &__feedback {
+                font-size: 10px;
+            }
+            &__sep {
+                &:nth-of-type(2n)::before {
+                    left: -10px;
+                }
+            }
+        }
+        &__head {
+            font-size: 14px;
+            margin-bottom: 20px;
+            a {
+                float: left;
+                font-size: 12px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .orders {
+        &-item {
+            position: relative;
+            padding: 12px 16px 20px 16px;
+            &__time {
+                bottom: 4px;
+                top: auto;
+                right: 4px;
+            }
+        }
+    }
+    .blog {
+        &-item {
+            margin-bottom: 6px;
+            height: 61px;
+            &_sm {
+                width: calc(40% - 36px);
+            }
+            &_mid {
+                width: calc(69% - 56px);
+            }
+            &__title {
+                font-size: 12px;
+                bottom: 8px;
+                left: 5px;
+                width: 100%;
+            }
+        }
+    }
 }

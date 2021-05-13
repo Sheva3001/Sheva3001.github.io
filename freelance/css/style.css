@@ -550,8 +550,7 @@ a {
     box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.34); }
   .active-item__head {
     display: flex;
-    justify-content: flex-start;
-    position: relative; }
+    justify-content: flex-start; }
     .active-item__head img {
       margin-right: 20px;
       box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.34);
@@ -998,4 +997,83 @@ a {
 
 @media (max-width: 575px) {
   .container {
-    width: 290px; } }
+    width: 290px; }
+  .left_open_active span:nth-of-type(1) {
+    top: 9px; }
+  .left_open_active span:nth-of-type(3) {
+    bottom: 9px; }
+  .header {
+    padding-top: 40px; }
+    .header__left a {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0; }
+    .header__left_open {
+      width: 25px;
+      height: 22px;
+      top: 67px;
+      left: 16px; }
+    .header-right__icons li {
+      padding: 0 13px; }
+    .header-right__menu {
+      width: calc(100% - 10px);
+      padding: 25px 5px; }
+      .header-right__menu li a {
+        padding: 7px 3px; }
+    .header-nav {
+      padding: 91px 5px 10px 5px;
+      width: 70%; }
+    .header__bottom {
+      width: 70%; }
+  .promo__banner {
+    width: 250px; }
+  .promo__form input {
+    width: 155px; }
+  .promo__title {
+    font-size: 18px; }
+  .promo__afterform {
+    font-size: 9px; }
+  .catalogue__head {
+    font-size: 16px; }
+  .catalogue__item {
+    width: 100%; }
+  .active-item .active-item__head {
+    flex-direction: column;
+    align-items: center; }
+  .active-item .active-item__logo {
+    margin: 0 auto !important; }
+  .active-item__pay {
+    font-size: 10px;
+    margin-right: 14px; }
+  .active-item__feedback {
+    font-size: 10px; }
+  .active-item__sep:nth-of-type(2n)::before {
+    left: -10px; }
+  .active__head {
+    font-size: 14px;
+    margin-bottom: 20px; }
+    .active__head a {
+      float: left;
+      font-size: 12px;
+      margin-top: 10px; }
+  .orders-item {
+    position: relative;
+    padding: 12px 16px 20px 16px; }
+    .orders-item__time {
+      bottom: 4px;
+      top: auto;
+      right: 4px; }
+  .blog-item {
+    margin-bottom: 6px;
+    height: 61px; }
+    .blog-item_sm {
+      width: calc(40% - 36px); }
+    .blog-item_mid {
+      width: calc(69% - 56px); }
+    .blog-item__title {
+      font-size: 12px;
+      bottom: 8px;
+      left: 5px;
+      width: 100%; } }
