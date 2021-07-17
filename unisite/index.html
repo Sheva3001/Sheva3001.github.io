@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+    <!-- Bootstrap CSS (jsDelivr CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Bootstrap Bundle JS (jsDelivr CDN) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__right">
+            <a href="#" class="header__logo">
+                <img src="img/unisite-logo.png" alt="logo">
+            </a>
+            <a href="#">
+                Служба поддержки
+            </a>
+            <a href="#">
+                Безопасная сделка
+            </a>
+        </div>
+        <div class="header__left">
+                <a href="#" class="header__position">Москва</a>
+                <a href="#" class="header__add">Добавить объявление</a>
+                <a href="#" class="header__signIn">Войти</a>
+        </div>
+    </header>
+    <section class="search">
+        <div class="container">
+            <h2>Поиск объявлений</h2>
+            <form action="/" class="col-md-9">
+                <div class="search__input">
+                    <input type="text" placeholder="iPhone 12 Pro">
+                </div>
+                <div class="search__select">
+                    <select name="categories" id="">
+                        <option value="0">Выберите категорию</option>
+                        <option value="1">Спорт и хобби</option>
+                        <option value="2">Авто и мото</option>
+                        <option value="3">Услуги</option>
+                        <option value="4">Мода и стиль</option>
+                        <option value="5">Для бизнесса</option>
+                    </select>
+                </div>
+                <button type="submit">Найти</button>
+            </form>
+        </div>
+    </section>
+    <div class="container">
+        <div class="carousel col-md-9">
+            <a href="#" class="carousel__item">
+                <div class="carousel__icon">
+                    <img src="img/house.jpg" alt="icon">
+                </div>
+                <h3 class="carousel__title">Спорт и хобби</h3>
+                <div class="carousel__count">980 объявлений</div>
+            </a>
+            <a href="#" class="carousel__item">
+                <div class="carousel__icon">
+                    <img src="img/house.jpg" alt="icon">
+                </div>
+                <h3 class="carousel__title">Спорт и хобби</h3>
+                <div class="carousel__count">980 объявлений</div>
+            </a>
+            <a href="#" class="carousel__item">
+                <div class="carousel__icon">
+                    <img src="img/house.jpg" alt="icon">
+                </div>
+                <h3 class="carousel__title">Спорт и хобби</h3>
+                <div class="carousel__count">980 объявлений</div>
+            </a>
+            <a href="#" class="carousel__item">
+                <div class="carousel__icon">
+                    <img src="img/house.jpg" alt="icon">
+                </div>
+                <h3 class="carousel__title">Спорт и хобби</h3>
+                <div class="carousel__count">980 объявлений</div>
+            </a>
+            <a href="#" class="carousel__item">
+                <div class="carousel__icon">
+                    <img src="img/house.jpg" alt="icon">
+                </div>
+                <h3 class="carousel__title">Спорт и хобби</h3>
+                <div class="carousel__count">980 объявлений</div>
+            </a>
+        </div>
+        <div class="catalogue col-md-9">
+            <div class="catalogue__head">
+                <a class="catalogue__head-active" href="#">Рядом</a>
+                <a href="#">Новые</a>
+                <a href="#">VIP</a>
+            </div>
+            <div class="catalogue__items">
+                <div class="catalogue-item">
+                    <div class="catalogue-item__photo">
+                        <img src="img/iphone.png" alt="photo">
+                    </div>
+                    <div class="catalogue-item__info">
+                        <div class="catalogue-item__top">
+                            <h3 class="catalogue-item__title">iPhone 12 Pro 128gb</h3>
+                            <div class="catalogue-item__premium">Премиум</div>
+                        </div>
+                        <div class="catalogue-item__price">78 000 ₽</div>
+                        <div class="catalogue-item__descr">
+                            iPhone 12 Pro Max. Новый.<br>
+                            Совершенно новый телефон, доставлен из ЕС, телефон евротест.<br>
+                            Упаковка не открывалась.<br>
+                            Год гарантии.<br>
+                            Все подробности на втором фото.<br>
+                        </div>
+                        <div class="catalogue-item__shopName">СтройТерминал</div>
+                        <div class="catalogue-item__address">Москва, ул. Ивана Франко, д 48</div>
+                        <button class="catalogue-item__buy">Купить</button>
+                        <button class="catalogue-item__buy catalogue-item__call">Позвонить</button>
+                        <div class="catalogue-item__favorite"></div>
+                    </div>
+                </div>
+                <div class="catalogue-item">
+                    <div class="catalogue-item__photo">
+                        <img src="img/iphone.png" alt="photo">
+                    </div>
+                    <div class="catalogue-item__info">
+                        <div class="catalogue-item__top">
+                            <h3 class="catalogue-item__title">iPhone 12 Pro 128gb</h3>
+                            <div class="catalogue-item__premium">Премиум</div>
+                        </div>
+                        <div class="catalogue-item__price">78 000 ₽</div>
+                        <div class="catalogue-item__descr">
+                            iPhone 12 Pro Max. Новый.<br>
+                            Совершенно новый телефон, доставлен из ЕС, телефон евротест.<br>
+                            Упаковка не открывалась.<br>
+                            Год гарантии.<br>
+                            Все подробности на втором фото.<br>
+                        </div>
+                        <div class="catalogue-item__shopName">СтройТерминал</div>
+                        <div class="catalogue-item__address">Москва, ул. Ивана Франко, д 48</div>
+                        <button class="catalogue-item__buy">Купить</button>
+                        <button class="catalogue-item__buy catalogue-item__call">Позвонить</button>
+                        <div class="catalogue-item__favorite"></div>
+                    </div>
+                </div>
+                <div class="catalogue-item">
+                    <div class="catalogue-item__photo">
+                        <img src="img/iphone.png" alt="photo">
+                    </div>
+                    <div class="catalogue-item__info">
+                        <div class="catalogue-item__top">
+                            <h3 class="catalogue-item__title">iPhone 12 Pro 128gb</h3>
+                            <div class="catalogue-item__premium">Премиум</div>
+                        </div>
+                        <div class="catalogue-item__price">78 000 ₽</div>
+                        <div class="catalogue-item__descr">
+                            iPhone 12 Pro Max. Новый.<br>
+                            Совершенно новый телефон, доставлен из ЕС, телефон евротест.<br>
+                            Упаковка не открывалась.<br>
+                            Год гарантии.<br>
+                            Все подробности на втором фото.<br>
+                        </div>
+                        <div class="catalogue-item__shopName">СтройТерминал</div>
+                        <div class="catalogue-item__address">Москва, ул. Ивана Франко, д 48</div>
+                        <button class="catalogue-item__buy">Купить</button>
+                        <button class="catalogue-item__buy catalogue-item__call">Позвонить</button>
+                        <div class="catalogue-item__favorite"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="catalogue__more">Показать все →</a>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar__items">
+                <div class="sidebar-item">
+                    <div class="sidebar-item__icon"><img src="img/shopping-bag.png" alt="icon"></div>
+                    <h3 class="sidebar-item__title">Онлайн-магазины</h3>
+                    <div class="sidebar-item__subtitle">Преврати свой профиль в магазин</div>
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-item__icon"><img src="img/marketing.png" alt="icon"></div>
+                    <h3 class="sidebar-item__title">Быстрые продажи</h3>
+                    <div class="sidebar-item__subtitle">Ваше объявление увидят все</div>
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-item__icon"><img src="img/verified.png" alt="icon"></div>
+                    <h3 class="sidebar-item__title">Безопасные сделки</h3>
+                    <div class="sidebar-item__subtitle">Просто и безопасно</div>
+                </div>
+                <div class="sidebar-item">
+                    <div class="sidebar-item__icon"><img src="img/location.png" alt="icon"></div>
+                    <h3 class="sidebar-item__title">Товары на карте</h3>
+                    <div class="sidebar-item__subtitle">Смотрите объявления возле вас</div>
+                </div>
+                <div class="sidebar-advertise">
+                    <img src="img/bmw.png" alt="advertisement">
+                    <button class="catalogue-item__buy sidebar-advertise__buy">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="blogue">
+        <div class="container">
+            <h2 class="blogue__title">Блог</h2>
+            <div class="blogue__items row">
+                <div class="blogue-item col-md-4">
+                    <div class="blogue-item__info">
+                        <img src="img/blog.jpeg" alt="photo">
+                        <h3 class="blogue-item__title">Новости от Tesla...</h3>
+                        <div class="blogue-item__subtitle">Подзаголовок...</div>
+                    </div>
+                    <button class="catalogue-item__buy blogue-item__buy">Посмотреть...</button>
+                </div>
+                <div class="blogue-item col-md-4">
+                    <div class="blogue-item__info">
+                        <img src="img/blog.jpeg" alt="photo">
+                        <h3 class="blogue-item__title">Новости от Tesla...</h3>
+                        <div class="blogue-item__subtitle">Подзаголовок...</div>
+                    </div>
+                    <button class="catalogue-item__buy blogue-item__buy">Посмотреть...</button>
+                </div>
+                <div class="blogue-item col-md-4">
+                    <div class="blogue-item__info">
+                        <img src="img/blog.jpeg" alt="photo">
+                        <h3 class="blogue-item__title">Новости от Tesla...</h3>
+                        <div class="blogue-item__subtitle">Подзаголовок...</div>
+                    </div>
+                    <button class="catalogue-item__buy blogue-item__buy">Посмотреть...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
