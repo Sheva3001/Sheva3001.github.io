@@ -1,0 +1,181 @@
+.promo {
+    position: relative;
+    z-index: 1;
+    min-height: 1065px;
+    overflow: hidden;
+    &-bg {
+        &__left {
+            position: absolute;
+            top: 134px;
+            left: 0;
+            width: 932px;
+        }
+        &__road {
+            position: absolute;
+            top: 7px;
+            width: 1011px;
+            left: calc(50% + 138px);
+            transform: translateX(-50%);
+        }
+        &__right {
+            position: absolute;
+            right: 0;
+            top: 88px;
+            width: 113px;
+        }
+        &__elips1 {
+            position: absolute;
+            top: 135px;
+            left: calc(50% + 234px);
+            transform: translateX(-50%);
+            width: 587px;
+        }
+        &__elips2 {
+            position: absolute;
+            top: 59px;
+            left: calc(50% + 234px);
+            transform: translateX(-50%);
+            width: 786px;
+        }
+        &__blue {
+            position: absolute;
+            top: 63px;
+            left: calc(50% + 105px);
+            transform: translateX(-50%);
+            width: 1019px;
+        }
+        &__car {
+            position: absolute;
+            top: 184px;
+            left: calc(50% + 306px);
+            transform: translateX(-50%);
+            width: 562px;
+        }
+        &__light {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+    &__info {
+        position: absolute;
+        left: 0;
+        top: 200px;
+        width: 460px;
+    }
+    &__title {
+        font-family: Montserrat;
+        font-size: 46px;
+        line-height: 66px;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-family: Gilroy;
+        font-size: 23px;
+        line-height: 43px;
+        font-weight: 400;
+        letter-spacing: 0.015em;
+        color: #ffffff;
+        margin-top: 15px;
+        span {
+            font-weight: 800;
+        }
+    }
+    &__request {
+        position: relative;
+        font-family: Gilroy;
+        font-size: 21px;
+        line-height: 44px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.006em;
+        color: #ffffff;
+        margin-top: 23px;
+        width: 306px;
+        background: rgba(0,0,0,.4);
+        padding: 21px 42px;
+        box-sizing: border-box;
+        text-decoration: none;
+        border-radius: 42px;
+        border: none;
+        text-align: center !important;
+        display: block;
+        box-shadow: 6px 8px 29px 0px rgba(3,152,158,0.38), inset 0px -3px 2px 0px rgba(228,213,198,0.67);
+        height: 84px;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 110px;
+        transform: translateX(-50%);
+        left: calc(50% + 197px);
+        width: 449px;
+        span {
+            font-family: Gilroy;
+            font-size: 18px;
+            line-height: 44px;
+            font-weight: 400;
+            letter-spacing: 0.015em;
+            color: #ffffff;
+            &:nth-of-type(1) {
+                margin-left: 125px;
+            }
+            &:nth-of-type(2) {
+                margin-left: 52px;
+            }
+        }
+    }
+    &-form {
+        width: 100%;
+        height: 271px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 748px;
+        left: 0;
+        border-radius: 51px;
+        padding: 34px 75px;
+        &__title {
+            font-family: Gilroy;
+            font-size: 30px;
+            line-height: 44px;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            color: #000000;
+            text-align: center;
+            width: 725px;
+            margin: 0 auto;
+        }
+        form {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 27px;
+            input {
+                width: 306px;
+                height: 72px;
+                border: 1px solid #a8a8a8;
+                border-radius: 36px;
+                font-family: Gilroy;
+                font-size: 21px;
+                font-weight: 600;
+                letter-spacing: 0.025em;
+                color: #1c1c1c;
+                padding: 10px 10px 10px 48px;
+                &[type="button"] {
+                    padding: 10px;
+                    border: none;
+                    background: #121111;
+                    box-shadow: 6px 8px 29px 0px rgba(3,152,158,0.38), inset 0px -3px 2px 0px rgba(228,213,198,0.67);
+                    color: #d7d5d5;
+                }
+            }
+        }
+    }
+}

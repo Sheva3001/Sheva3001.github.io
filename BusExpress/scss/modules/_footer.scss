@@ -1,0 +1,13 @@
+.footer {
+    border-top: 4.5px solid #03989e;
+    padding: 10px 0;
+    &__copyright {
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 19px;
+        line-height: 46.5px;
+        font-weight: 500;
+        letter-spacing: 0.0em;
+        color: #ffffff;
+    }
+}

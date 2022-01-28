@@ -1,0 +1,43 @@
+.questions {
+    position: relative;
+    padding: 65px 0 270px;
+    overflow: hidden;
+    .promo {
+        &-form {
+            position: relative;
+            top: auto;
+            left: auto;
+            padding: 48px 75px;
+            height: 311px;
+            &__title {
+                width: 760px;
+            }
+            &__subtitle {
+                font-family: Gilroy;
+                font-size: 18px;
+                line-height: 44px;
+                font-weight: 300;
+                color: #000000;
+                text-align: center;
+            }
+            span {
+                float: right;
+                opacity: 0.8;
+                font-family: Gilroy;
+                font-size: 9px;
+                line-height: 12px;
+                font-weight: 300;
+                letter-spacing: 0.025em;
+                color: #000000;
+                margin: 17px 66px 0 0;
+            }
+        }
+    }
+    &__bg {
+        position: absolute;
+        top: -206px;
+        right: calc(50% - 430px);
+        transform: translateX(50%);
+        width: 867px;
+    }
+}

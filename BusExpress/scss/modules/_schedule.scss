@@ -1,0 +1,158 @@
+.schedule {
+    padding: 57px 0;
+    background: url(../../img/schedule.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    &__title {
+        font-family: Montserrat;
+        font-size: 35px;
+        line-height: 68px;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &-tabs {
+        margin: 64px auto 0 auto;
+        width: 669px;
+        height: 133px;
+        display: flex;
+        &__item {
+            height: 100%;
+            width: 50%;
+            box-sizing: border-box;
+            font-family: Gilroy;
+            font-size: 35px;
+            line-height: 68px;
+            font-weight: 500;
+            letter-spacing: 0.025em;
+            color: #000000;
+            border: none;
+            box-shadow: none;
+            background-color: #fff;
+            &:nth-of-type(1) {
+                border-radius: 34px 0 0 34px;
+            }
+            &:nth-of-type(2) {
+                border-radius: 0 34px 34px 0;
+            }
+            &.active {
+                background-color: #03989e;
+            }
+        }
+    }
+    &-main {
+        width: 816px;
+        margin: 76px auto 0 auto;
+        display: none;
+        &.active {
+            display: block;
+        }
+        &__top {
+            display: flex;
+            justify-content: center;
+        }
+        &__location {
+            width: 50%;
+            &:nth-of-type(1) {
+                padding-left: 152px;
+                h2 {
+                    &::before {
+                        left: -87px;
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                padding-left: 112px;
+            }
+            h2 {
+                color: #03989e;
+                font-family: Montserrat;
+                font-size: 47px;
+                line-height: 68px;
+                font-weight: 600;
+                letter-spacing: 0.033em;
+                text-transform: uppercase;
+                position: relative;
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 59px;
+                    height: 59px;
+                    background: url(../../img/location.svg) center center/cover no-repeat;
+                    position: absolute;
+                    top: 7px;
+                    left: -79px;
+                }
+            }
+            ul {
+                padding: 0;
+                margin-top: 32px;
+                list-style: none;
+                li {
+                    font-family: Gilroy;
+                    font-size: 24.4px;
+                    line-height: 38px;
+                    font-weight: 400;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+        &__bottom {
+            margin-top: 20px;
+            h2 {
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Gilroy;
+                font-size: 25.2px;
+                line-height: 40px;
+                font-weight: 600;
+                letter-spacing: 0.025em;
+                color: #ffffff;
+            }
+            ul {
+                padding: 0;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                width: 233px;
+                margin: 33px auto 0 auto;
+                li {
+                    font-family: Gilroy;
+                    font-size: 25.2px;
+                    line-height: 44px;
+                    font-weight: 500;
+                    letter-spacing: 0.025em;
+                    color: #ffffff;
+                    text-align: center;
+                    width: 33%;
+                }
+            }
+        }
+    }
+    &__order {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 23px 23px;
+        margin: 48px auto 0 auto;
+        width: 289px;
+        height: 72px;
+        border-radius: 36px;
+        font-family: Gilroy;
+        font-size: 17px;
+        font-weight: 500;
+        border: none;
+        background: #121111;
+        box-shadow: 6px 8px 29px 0px rgba(3, 152, 158, 0.38), inset 0px -3px 2px 0px rgba(228, 213, 198, 0.67);
+        color: #fff;
+        text-transform: uppercase;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
